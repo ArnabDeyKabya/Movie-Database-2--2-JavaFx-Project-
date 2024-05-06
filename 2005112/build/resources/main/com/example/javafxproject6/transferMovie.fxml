@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="556.0" prefWidth="767.0" style="-fx-background-color: #20B2AA;" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.javafxproject6.transferMovieController">
+   <children>
+      <TextField fx:id="title" layoutX="358.0" layoutY="100.0" prefHeight="46.0" prefWidth="254.0" style="-fx-background-color: #FF7F50;" />
+      <TextField fx:id="production" layoutX="358.0" layoutY="165.0" prefHeight="46.0" prefWidth="254.0" style="-fx-background-color: #FF7F50;" />
+      <Label layoutX="220.0" layoutY="108.0" text="Title:" textFill="#080000">
+         <font>
+            <Font size="20.0" />
+         </font></Label>
+      <Label layoutX="137.0" layoutY="173.0" prefHeight="30.0" prefWidth="209.0" text="Production Company:" textFill="#080000">
+         <font>
+            <Font size="20.0" />
+         </font></Label>
+      <Button layoutX="326.0" layoutY="250.0" mnemonicParsing="false" onAction="#onTransferClick" prefHeight="38.0" prefWidth="171.0" text="Transfer" textFill="#ea08b1">
+         <font>
+            <Font size="20.0" />
+         </font></Button>
+      <Button layoutX="362.0" layoutY="398.0" mnemonicParsing="false" onAction="#onGoBackClick" text="Go Back" textFill="#ea08b1">
+         <font>
+            <Font size="20.0" />
+         </font></Button>
+      <Label layoutX="279.0" layoutY="30.0" text="Transfer Your Movie" textAlignment="CENTER">
+         <font>
+            <Font name="Berlin Sans FB" size="29.0" />
+         </font>
+      </Label>
+      <Label fx:id="confirmTransfer" layoutX="206.0" layoutY="332.0" prefHeight="32.0" prefWidth="410.0">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

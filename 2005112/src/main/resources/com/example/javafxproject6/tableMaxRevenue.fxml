@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="588.0" prefWidth="1033.0" style="-fx-background-color: #0000FF;" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.javafxproject6.tableMaxRevenueController">
+    <children>
+        <TableView fx:id="table_Title" layoutX="8.0" layoutY="75.0" prefHeight="433.0" prefWidth="1018.0" style="-fx-background-color: #BC8F8F;">
+            <columns>
+                <TableColumn fx:id="Title" prefWidth="200.59999084472656" text="Title" />
+                <TableColumn fx:id="releaseYear" prefWidth="84.20001220703125" text="Release Year" />
+                <TableColumn fx:id="genere1" prefWidth="71.79998779296875" text="Genre 1" />
+                <TableColumn fx:id="genere2" prefWidth="84.0" text="Genre 2" />
+                <TableColumn fx:id="genere3" prefWidth="88.0" text="Genre 3" />
+                <TableColumn fx:id="runTime" prefWidth="88.0" text="Run Time" />
+                <TableColumn fx:id="productionCompany" prefWidth="202.39996337890625" text="Production Company" />
+                <TableColumn fx:id="MovieBudget" prefWidth="108.60003662109375" text="Budget" />
+                <TableColumn fx:id="Movierevenue" prefWidth="93.39996337890625" text="Revenue" />
+            </columns>
+        </TableView>
+        <Button layoutX="487.0" layoutY="525.0" mnemonicParsing="false" onAction="#onBackToLoginPageClick" prefHeight="50.0" prefWidth="110.0" text="Go Back">
+         <font>
+            <Font size="21.0" />
+         </font></Button>
+      <Label layoutX="366.0" layoutY="14.0" text="Here Is Your Deserved Movies" textFill="#1b0101">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Label>
+      <TextField fx:id="search" layoutX="201.0" layoutY="22.0" />
+      <Label layoutX="109.0" layoutY="19.0" text="Search:" textFill="#0b0101">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+    </children>
+</AnchorPane>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="644.0" prefWidth="884.0" style="-fx-background-color: #00BFFF;" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.javafxproject6.productionSearchingController">
+   <children>
+      <Button layoutX="481.0" layoutY="223.0" mnemonicParsing="false" onAction="#onMostRecentMoviesClick" prefHeight="55.0" prefWidth="250.0" style="-fx-background-color: #FF0000;" text="Most Recent Movies" textFill="#040b04">
+         <font>
+            <Font name="Arial Black" size="12.0" />
+         </font></Button>
+      <Button layoutX="483.0" layoutY="287.0" mnemonicParsing="false" onAction="#onMoviesWithMaxRevenueClick" prefHeight="46.0" prefWidth="250.0" style="-fx-background-color: #FF0000;" text="Movies with the Maximum Revenue" textFill="#040b04">
+         <font>
+            <Font name="Arial Black" size="12.0" />
+         </font></Button>
+      <Button layoutX="480.0" layoutY="342.0" mnemonicParsing="false" onAction="#onTotalProfitClick" prefHeight="55.0" prefWidth="250.0" style="-fx-background-color: #FF0000;" text="Total Profit" textFill="#040b04">
+         <font>
+            <Font name="Arial Black" size="12.0" />
+         </font></Button>
+      <Button layoutX="480.0" layoutY="402.0" mnemonicParsing="false" onAction="#onAddMovieClick" prefHeight="55.0" prefWidth="250.0" style="-fx-background-color: #FF0000;" text="Add Movie" textFill="#040b04">
+         <font>
+            <Font name="Arial Black" size="12.0" />
+         </font></Button>
+      <Button layoutX="480.0" layoutY="464.0" mnemonicParsing="false" onAction="#onTranferMovieClick" prefHeight="46.0" prefWidth="250.0" style="-fx-background-color: #FF0000;" text="Transfer Movie" textFill="#040b04">
+         <font>
+            <Font name="Arial Black" size="12.0" />
+         </font></Button>
+      <Button layoutX="483.0" layoutY="161.0" mnemonicParsing="false" onAction="#onShowAllMoviesClick" prefHeight="55.0" prefWidth="250.0" style="-fx-background-color: #FF0000;" text="Show All Movies" textFill="#040b04">
+         <font>
+            <Font name="Arial Black" size="12.0" />
+         </font></Button>
+      <Button layoutX="480.0" layoutY="519.0" mnemonicParsing="false" onAction="#onExitClick" prefHeight="46.0" prefWidth="250.0" style="-fx-background-color: #FF0000;" text="Exit " textFill="#040b04">
+         <font>
+            <Font name="Arial Black" size="12.0" />
+         </font></Button>
+      <AnchorPane layoutX="2.0" layoutY="3.0" prefHeight="154.0" prefWidth="878.0" style="-fx-background-color: #FFD700;">
+         <children>
+            <Label layoutX="76.0" layoutY="23.0" prefHeight="64.0" prefWidth="210.0" text="Welcome" textFill="#0900ff">
+               <font>
+                  <Font size="36.0" />
+               </font>
+            </Label>
+            <Label fx:id="welcome" layoutX="242.0" layoutY="27.0" prefHeight="55.0" prefWidth="458.0" textFill="#6608ff">
+               <font>
+                  <Font name="Bell MT" size="36.0" />
+               </font></Label>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="1.0" layoutY="150.0" prefHeight="492.0" prefWidth="475.0" style="-fx-background-color: #FFD700;">
+         <children>
+            <Button layoutX="36.0" layoutY="212.0" mnemonicParsing="false" onAction="#onReloadClick" prefHeight="46.0" prefWidth="288.0" style="-fx-background-color: #006400;" text="Reload">
+               <font>
+                  <Font name="Arial Black" size="25.0" />
+               </font>
+            </Button>
+         </children></AnchorPane>
+   </children>
+</AnchorPane>

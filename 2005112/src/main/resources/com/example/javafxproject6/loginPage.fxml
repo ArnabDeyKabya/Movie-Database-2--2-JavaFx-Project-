@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="569.0" prefWidth="816.0" style="-fx-background-color: #FFC0CB;" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.javafxproject6.AnotherLoginPageController">
+   <children>
+      <TextField fx:id="production" layoutX="243.0" layoutY="272.0" prefHeight="52.0" prefWidth="342.0" promptText="Username" style="-fx-background-color: #7FFF00;">
+         <font>
+            <Font name="Arial" size="29.0" />
+         </font></TextField>
+      <Button layoutX="315.0" layoutY="360.0" mnemonicParsing="false" onAction="#onSubmitClick" prefHeight="64.0" prefWidth="215.0" text="Submit">
+         <font>
+            <Font name="Broadway" size="38.0" />
+         </font></Button>
+      <Label layoutX="139.0" layoutY="170.0" prefHeight="64.0" prefWidth="608.0" text="Enter Your Production Company" textFill="#2b1491">
+         <font>
+            <Font size="41.0" />
+         </font>
+      </Label>
+      <Label />
+   </children>
+</AnchorPane>
